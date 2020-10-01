@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Image Gallery</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="Gallery.css">
+	</head>
+	<body>
+		<!-- navbar inverse inverses the colour-from gray to black and navbar-fixed-top will make the navbar static -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+			<!-- Container class will include proper padding and spaces -->
+		<!--Add a company /brand name using navbar header and navbar brand  -->
+		        <div class="container">
+		           <div class="navbar-header">
+			          <a href="#" class="navbar-brand">Gallery <span class="glyphicon glyphicon-picture" aria-hidden="true"></span></a>
+		           </div>
+		 <!-- To add navbars in extreme left -->
+		         <div class="nav navbar-nav">
+		 	      <li><a href="#">About</a></li>
+		 	      <li><a href="#">Contact</a></li>
+		    </div>
+		 <!-- Instead of divs we can also have ul's -->
+		     <ul class="nav navbar-nav navbar-right">
+		 <!-- Adds Navbar to right -->
+		            <li><a href="#">Login</a></li>
+		            <li><a href="#">SignUp</a></li>
+		 	
+		     </ul>
+		</div>
+		</nav>
+
+
+
+
+		<div class="container">
+		  <div class="jumbotron">
+        <!-- Add camera symbol from glyphicon symbol in getbootstrap.com page -->
+		  	<h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1>
+		  	<p>A bunch of beautiful images from Nature</p>
+		  </div>
+		  <!-- class equals thumbnail creates a border outside the image and tries to fit the image in its grid -->
+		    <div class="row">
+		    	<div class="col-md-4">
+		    		<div class="thumbnail">
+		    		<img src="https://unsplash.com/photos/3txuD9OxrNw"></div>
+		    	</div>
+		    	<div class="col-md-4"><img src="https://unsplash.com/photos/94jmTvvAlAE"></div>
+		    	<div class="col-md-4"><img src="https://unsplash.com/photos/94jmTvvAlAE"></div>
+		    	<div class="col-md-4"></div>
+		    </div>
+	    </div>
+          <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
